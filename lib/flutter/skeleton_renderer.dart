@@ -234,8 +234,6 @@ class SkeletonRenderer {
     }
   }
 
-  // Adapted from http://extremelysatisfactorytotalitarianism.com/blog/?p=2120
-  // Apache 2 licensed
   void _drawTriangle(
       ui.Image img,
       double x0,
@@ -295,12 +293,16 @@ class SkeletonRenderer {
 
     canvas.save();
     canvas.clipPath(_path);
+
     /*
-    ac0e
-    bd0f
-    0010
-    0001
+    https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/transform
+    http://www.opengl-tutorial.org/cn/beginners-tutorials/tutorial-3-matrices/
+    a c 0 e
+    b d 0 f
+    0 0 1 0
+    0 0 0 1
     */
+
     canvas.transform(Float64List.fromList([
       a,
       b,
