@@ -1,0 +1,48 @@
+library spine_core;
+
+import 'dart:convert';
+import 'dart:math' as math;
+import 'dart:typed_data';
+
+part 'core/animation_state_data.dart';
+part 'core/animation_state.dart';
+part 'core/animation.dart';
+part 'core/atlas_attachment_loader.dart';
+part 'core/blend_mode.dart';
+part 'core/bone_data.dart';
+part 'core/bone.dart';
+part 'core/constraint.dart';
+part 'core/event.dart';
+part 'core/event_data.dart';
+part 'core/ik_constraint_data.dart';
+part 'core/ik_constraint.dart';
+part 'core/path_constraint_data.dart';
+part 'core/path_constraint.dart';
+part 'core/skeleton_bounds.dart';
+part 'core/skeleton_clipping.dart';
+part 'core/skeleton_data.dart';
+part 'core/skeleton_json.dart';
+part 'core/skeleton.dart';
+part 'core/skin.dart';
+part 'core/slot_data.dart';
+part 'core/slot.dart';
+part 'core/texture_atlas.dart';
+part 'core/texture.dart';
+part 'core/transform_constraint_data.dart';
+part 'core/transform_constraint.dart';
+part 'core/triangulator.dart';
+part 'core/updatable.dart';
+part 'core/utils.dart';
+part 'core/vertex_effect.dart';
+
+part 'core/attachments/attachment_loader.dart';
+part 'core/attachments/attachment_type.dart';
+part 'core/attachments/attachment.dart';
+part 'core/attachments/bounding_box_attachment.dart';
+part 'core/attachments/clipping_attachment.dart';
+part 'core/attachments/mesh_attachment.dart';
+part 'core/attachments/path_attachment.dart';
+part 'core/attachments/point_attachment.dart';
+part 'core/attachments/region_attachment.dart';
+part 'core/vertexeffects/jitter_effect.dart';
+part 'core/vertexeffects/swirl_effect.dart';

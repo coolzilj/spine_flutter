@@ -1,0 +1,15 @@
+name: spine_flutter
+description: spine runtime and widget for flutter.
+version: 0.0.1
+author:
+homepage:
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
